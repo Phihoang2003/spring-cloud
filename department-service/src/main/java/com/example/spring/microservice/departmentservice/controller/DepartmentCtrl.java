@@ -41,9 +41,6 @@ public class DepartmentCtrl {
     @GetMapping("/with-employees")
     public List<Department> findAllWithEmployees(){
         logger.info("Department find");
-//        List<Department> departments=repository.findAll();
-//        departments.forEach(department -> department.setEmployees(employeeClient.findByDepartment(department.getId())));
-//        return departments;
         List<Department> departments
                 = repository.findAll();
         departments.forEach(department ->

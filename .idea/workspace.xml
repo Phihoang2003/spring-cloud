@@ -97,6 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.ConfigServerApplication" />
+      <item itemvalue="Application.DepartmentServiceApplication" />
+      <item itemvalue="Application.EmployeeServiceApplication" />
+      <item itemvalue="Application.ServerRegistryApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.DepartmentServiceApplication" />
